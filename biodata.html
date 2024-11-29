@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<img id="modeImage" src="asset/header.png" alt="Mode Image" width="100%" height="15%">
+<img id="modeImage" src="header.png" alt="Mode Image" width="100%" height="15%">
 
 <ul>
   <li><a href="index.html">Home</a></li>
@@ -40,11 +40,11 @@
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-      <img src="asset/s1.jpg" style="width:350px;height:350px;">
+      <img src="s1.jpg" style="width:350px;height:350px;">
     </div>
    
   <div class="flip-card-back">
-      <img src="asset/s3.jpg" style="width:350px;height:350px;">
+      <img src="s3.jpg" style="width:350px;height:350px;">
   </div>
  </div>
 </div>
@@ -54,15 +54,15 @@
 <hr>
 
 <div class="memories">
- <img src="asset/w6.jpg" style="width:500px; height:355px;">
- <img src="asset/w11.jpg" style="width:500px; height:355px;"><br>
- <img src="asset/w2.jpg" style="width:500px; height:355px;">
- <img src="asset/w4.jpg" style="width:500px; height:355px;">
+ <img src="w6.jpg" style="width:500px; height:355px;">
+ <img src="w11.jpg" style="width:500px; height:355px;"><br>
+ <img src="w2.jpg" style="width:500px; height:355px;">
+ <img src="w4.jpg" style="width:500px; height:355px;">
 </div>
 
   <div class="k2">
      <video width="400px" controls autoplay muted loop>
-     <source src="asset/k2.mp4" type="video/mp4">
+     <source src="k2.mp4" type="video/mp4">
   </video>
 </div>
 </div>
@@ -72,13 +72,13 @@
 <footer>
 <h4><b><i><font size="4pt" font color="white">"Always remember you are braver than you believe, stronger than you seem, and smarter than you think" -  A.A. MILNE</b></i></h4></font>
    
-<a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=nurulnaemahsalim@gmail.com&su=Contact%20me" target="_blank"><img src="asset/email.png" width="5%" height="5.1%"></a>
+<a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=nurulnaemahsalim@gmail.com&su=Contact%20me" target="_blank"><img src="email.png" width="5%" height="5.1%"></a>
 
-<a href="https://wa.link/d17br3" target="_blank"><img src="asset/whatsapp.png" width="4%" height="5%"></a>  
+<a href="https://wa.link/d17br3" target="_blank"><img src="whatsapp.png" width="4%" height="5%"></a>  
 
-<a href="https://www.instagram.com/naemahsalim/"  target="_blank"><img src="asset/insta.png" width="5%" height="5%"></a>  
+<a href="https://www.instagram.com/naemahsalim/"  target="_blank"><img src="insta.png" width="5%" height="5%"></a>  
 
-<a href="https://t.me/Nurulnaemah" target="_blank"><img src="asset/telegram.png" width="3%" height="5%"></a> 
+<a href="https://t.me/Nurulnaemah" target="_blank"><img src="telegram.png" width="3%" height="5%"></a> 
 
 <div class="block">
 <br>
@@ -91,7 +91,7 @@
 </footer>
 
 <button onclick="topFunction()" id="up" title="Go to top">
-   <img id="arrowImage" src="asset/arrow.png" width="50px" height="50px">
+   <img id="arrowImage" src="arrow.png" width="50px" height="50px">
 </button>
  
 <script>
@@ -106,12 +106,12 @@
 
       // Update header image and arrow image sources
       if (body.classList.contains("dark-mode")) {
-        headerImg.src = "asset/header2.png"; // Dark mode header image
-        arrowImg.src = "asset/arrow2.png"; // Dark mode arrow image
+        headerImg.src = "header2.png"; // Dark mode header image
+        arrowImg.src = "arrow2.png"; // Dark mode arrow image
         localStorage.setItem("darkMode", "enabled"); // Save dark mode preference
       } else {
-        headerImg.src = "asset/header.png"; // Light mode header image
-        arrowImg.src = "asset/arrow.png"; // Light mode arrow image
+        headerImg.src = "header.png"; // Light mode header image
+        arrowImg.src = "arrow.png"; // Light mode arrow image
         localStorage.setItem("darkMode", "disabled"); // Save light mode preference
       }
     }
@@ -128,11 +128,11 @@
       // Apply dark mode if enabled
       if (darkMode === "enabled") {
         body.classList.add("dark-mode");
-        headerImg.src = "asset/header2.png"; // Dark mode header image
-        arrowImg.src = "asset/arrow2.png"; // Dark mode arrow image
+        headerImg.src = "header2.png"; // Dark mode header image
+        arrowImg.src = "arrow2.png"; // Dark mode arrow image
       } else {
-        headerImg.src = "asset/header.png"; // Light mode header image
-        arrowImg.src = "asset/arrow.png"; // Light mode arrow image
+        headerImg.src = "header.png"; // Light mode header image
+        arrowImg.src = "arrow.png"; // Light mode arrow image
       }
     };
 
